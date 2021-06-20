@@ -83,7 +83,7 @@ footer {
 a:active, :focus {
     outline: 2px solid purple;
     color: white;
-    background: purple;
+    background: #1111dd;
 }
 
 .spots {
