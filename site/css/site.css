@@ -92,9 +92,15 @@ a:active, :focus {
     padding: 0.5em;
 }
 
-.spots img {
+.spots div {
     border-radius: 0.25em;
     border: 2px white solid;
+}
+
+.close {
+    margin: 0;
+    padding: 3px 3px 0 3px;
+    background-color: white;
 }
 
 p#dep {

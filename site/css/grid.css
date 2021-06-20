@@ -46,24 +46,24 @@ footer { grid-area: footer; }
     grid-gap: 0.5em;
 }
 
-.spots img {
+.spots div {
     grid-column: span 12;
 }
 
 @media screen and (min-width: 360px) {
-    .spots img {
+    .spots div {
         grid-column: span 6;
     }
 }
 
 @media screen and (min-width: 550px) {
-    .spots img {
+    .spots div {
         grid-column: span 4;
     }
 }
 
 @media screen and (min-width: 800px) {
-    .spots img {
+    .spots div {
         grid-column: span 3;
     }
 }
