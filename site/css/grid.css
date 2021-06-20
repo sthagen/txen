@@ -28,7 +28,7 @@ body {
         grid-template-areas: "header header"
                              "aside  main  "
                              "nav    main  "
-                             "nav    spots "
+                             "spots  spots "
                              "footer footer";
     }
 }

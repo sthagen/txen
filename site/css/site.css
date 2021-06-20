@@ -43,11 +43,41 @@ aside p {
 }
 
 nav ul {
-    list-style: none;
-    line-height: 1.5em;
+    list-style-type: none;
+    margin: 0;
     padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
 }
 
+nav ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav ul li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+nav ul li:last-child {
+    border-bottom: none;
+}
+
+nav ul li a.active {
+    background-color: #04AA6D;
+    color: white;
+    pointer-events: none;
+    cursor: default;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
 main h1 {
     margin-top: 0.25em;
 }
